@@ -191,14 +191,14 @@ class Binarytree
                   else
                   {
                       node *itr=leftchild->right;
-                      node *ancester=leftchild;
+                      node *ancestor=leftchild;
                       while(itr->left!=NULL)
                       {
-                            ancester=itr;
+                            ancestor=itr;
                             itr=itr->left;
                       }
-                      ancester->key=itr->key;
-                      ancester->left=itr->right;
+                      ancestor->key=itr->key;
+                      ancestor->left=itr->right;
                       delete itr;
                   }
              }
@@ -227,14 +227,14 @@ class Binarytree
                   else
                   {
                       node *itr=rightchild->right;
-                      node *ancester=rightchild;
+                      node *ancestor=rightchild;
                       while(itr->left!=NULL)
                       {
-                            ancester=itr;
+                            ancestor=itr;
                             itr=itr->left;
                       }
-                      ancester->key=itr->key;
-                      ancester->left=itr->right;
+                      ancestor->key=itr->key;
+                      ancestor->left=itr->right;
                       delete itr;
                   }    
              }     
