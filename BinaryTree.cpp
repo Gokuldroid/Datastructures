@@ -340,14 +340,15 @@ int main()
     obj.findelement(1);
     obj.findelement(11);
     obj.deleteelement(7);
+    obj.deleteelement(11);
     obj.displaydepthfirst(obj.INORDER);
     obj.deleteelement(0);
     obj.displaydepthfirst(obj.INORDER);
     obj.deleteelement(4);
     obj.deleteelement(2);
     obj.displaydepthfirst(obj.INORDER);
-    int a=;
-    cin>>b;
+    int a;
+    cin>>a;
     
     
 }
