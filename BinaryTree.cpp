@@ -1,6 +1,6 @@
 /* author gokul
  * dev c++ v 4.9.9.2
- * Stack using linked list
+ * Binary tree 
  * traversing ref http://datastructuresnotes.blogspot.in/2009/02/binary-tree-traversal-preorder-inorder.html
  */
 
