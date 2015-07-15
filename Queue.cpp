@@ -1,6 +1,6 @@
 /* author gokul
  * dev c++ v 4.9.9.2
- * Stack using linked list
+ * queue using linked list
  */
  
  #include<iostream>
